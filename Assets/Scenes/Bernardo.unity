@@ -647,6 +647,7 @@ Transform:
   m_RootOrder: 7
 <<<<<<< HEAD
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &747746312
 GameObject:
   m_ObjectHideFlags: 0
@@ -717,6 +718,8 @@ Transform:
 =======
 >>>>>>> master
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of 385454f... Finished new PlayerController
 --- !u!1 &1141094245
 GameObject:
   m_ObjectHideFlags: 0
