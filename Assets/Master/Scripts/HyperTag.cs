@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HyperTag : MonoBehaviour {
 
-    public enum Tag { Player, Hazzards };
+    public enum Tag { Player, Hazzards, TP };
 
     public Tag[] tags;
 
