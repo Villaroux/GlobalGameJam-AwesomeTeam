@@ -15,17 +15,15 @@ public class TPSystem : MonoBehaviour
         coll = GetComponent<BoxCollider2D>();
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Here!");
-
-        HyperTag tag = collision.gameObject.GetComponent<HyperTag>();
+        HyperTag tag = collision.GetComponent<HyperTag>();
 
         if (tag == null) return;
 
-        if(tag.GetTag() == HyperTag.Tag.Player)
+        if (tag.GetTag() == HyperTag.Tag.Player)
         {
-            MoveTo move = collision.gameObject.GetComponent<MoveTo>();
+            TPPControl move = collision.GetComponent<TPPControl>();
             move.TPTo(placeTo);
         }
     }
