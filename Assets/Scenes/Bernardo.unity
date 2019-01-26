@@ -452,41 +452,6 @@ Rigidbody2D:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4571221214946154655, guid: 0fb1fb025999c2f4fa44d9499ab76863,
-        type: 3}
-      propertyPath: m_DynamicOccludee
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571221214946154640, guid: 0fb1fb025999c2f4fa44d9499ab76863,
-        type: 3}
-      propertyPath: dashKey
-      value: 106
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571221214946154640, guid: 0fb1fb025999c2f4fa44d9499ab76863,
-        type: 3}
-      propertyPath: blockKey
-      value: 107
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571221214946154640, guid: 0fb1fb025999c2f4fa44d9499ab76863,
-        type: 3}
-      propertyPath: IsDashActivated
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571221214946154640, guid: 0fb1fb025999c2f4fa44d9499ab76863,
-        type: 3}
-      propertyPath: IsBlockActivated
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571221214946154640, guid: 0fb1fb025999c2f4fa44d9499ab76863,
-        type: 3}
-      propertyPath: dashCD
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4571221214946154640, guid: 0fb1fb025999c2f4fa44d9499ab76863,
-        type: 3}
-      propertyPath: blockCD
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5803817846259288478, guid: 0fb1fb025999c2f4fa44d9499ab76863, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0fb1fb025999c2f4fa44d9499ab76863, type: 3}
@@ -752,31 +717,6 @@ Transform:
 =======
 >>>>>>> master
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &784240151 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4571221214946154642, guid: 0fb1fb025999c2f4fa44d9499ab76863,
-    type: 3}
-  m_PrefabInstance: {fileID: 139170163}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &784240152
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 784240151}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3ad8decd289f85e459d03c3341535fd7, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1141094245
 GameObject:
   m_ObjectHideFlags: 0
